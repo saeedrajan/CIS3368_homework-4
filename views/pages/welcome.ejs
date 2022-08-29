@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/head'); %>
+</head>
+<body class="container">
+
+    <header>
+        <%- include('../partials/header'); %>
+    </header>
+
+    <main>
+        <h1>Welcome!</h1>
+        <!--Grid row-->
+        <!--Section: Carousel-->
+
+
+            <!-- Carousel wrapper -->
+<div id="carouselBasicExample" class="carousel slide carousel-fade" data-mdb-ride="carousel">
+    <!-- Indicators -->
+    <div class="carousel-indicators">
+      <button
+        type="button"
+        data-mdb-target="#carouselBasicExample"
+        data-mdb-slide-to="0"
+        class="active"
+        aria-current="true"
+        aria-label="Slide 1"
+      ></button>
+      <button
+        type="button"
+        data-mdb-target="#carouselBasicExample"
+        data-mdb-slide-to="1"
+        aria-label="Slide 2"
+      ></button>
+      <button
+        type="button"
+        data-mdb-target="#carouselBasicExample"
+        data-mdb-slide-to="2"
+        aria-label="Slide 3"
+      ></button>
+    </div>
+  
+    <!-- Inner -->
+    <div class="carousel-inner">
+      <!-- Single item -->
+      <div class="carousel-item active">
+        <img src="https://www.helpguide.org/wp-content/uploads/woman-mixing-ingredients-and-vegetables-in-pan-while-preparing-lunch.jpg" class="d-block w-100" alt="Sunset Over the City"/>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Cooking is fun!</h5>
+        </div>
+      </div>
+  
+      <!-- Single item -->
+      <div class="carousel-item">
+        <img src="https://assets.bonappetit.com/photos/5e7a6c79edf206000862e452/16:9/w_2580,c_limit/Cooking-Home-Collection.jpg" class="d-block w-100" alt="Canyon at Nigh"/>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Cooking can save you money!</h5>
+        </div>
+      </div>
+  
+      <!-- Single item -->
+      <div class="carousel-item">
+        <img src="https://cdn.cnn.com/cnnnext/dam/assets/180806132422-underscored-cooking-kids-lead.jpg" class="d-block w-100" alt="Cliff Above a Stormy Sea"/>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Know what you are eating!</h5>
+        </div>
+      </div>
+    </div>
+    <!-- Inner -->
+  
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+    </main>
+
+    <footer>
+        <%- include('../partials/footer'); %>
+    </footer>
+
+</body>
+</html>
